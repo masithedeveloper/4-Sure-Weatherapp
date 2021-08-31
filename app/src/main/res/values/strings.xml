@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">4-Sure Weather App</string>
+    <string name="position" translatable="false">position</string>
+    <string name="title">Title</string>
+    <string name="explore">Explore</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="next_week">Next Week</string>
+    <string name="humidity">Humidity</string>
+    <string name="next_5_days">Next 5 Days</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="temperature_conversion">Temperature Conversion</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="unexpected_exception" />
+
+    <string name="temperature_units">Temperature</string>
+    <string name="temperature_fahrenheit_name">Fahrenheit</string>
+    <string name="temperature_celsius_name">Celsius</string>
+    <string name="temperature_fahrenheit_value">fahrenheit</string>
+    <string name="temperature_celsius_value">celsius</string>
+
+    <string-array name="temperature_entries">
+        <item>@string/temperature_fahrenheit_name</item>
+        <item>@string/temperature_celsius_name</item>
+    </string-array>
+
+    <string-array name="temperature_values">
+        <item>@string/temperature_fahrenheit_value</item>
+        <item>@string/temperature_celsius_value</item>
+    </string-array>
+
+    <string name="temperature_celsius">%1$.0f°C</string>
+    <string name="temperature_fahrenheit">%1$.0f°F</string>
+
+    <string name="units">Units</string>
+
+</resources>

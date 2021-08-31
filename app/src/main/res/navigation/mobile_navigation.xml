@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="za.co.foursure.weatherapp.ui.dashboard.DashboardFragment"
+        android:label="DashboardFragment">
+        <action
+            android:id="@+id/action_dashboardFragment_to_weatherDetailFragment"
+            app:destination="@id/weatherDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherDetailFragment"
+        android:name="za.co.foursure.weatherapp.ui.weather_detail.WeatherDetailFragment"
+        android:label="WeatherDetailFragment">
+        <argument
+            android:name="weatherItem"
+            app:argType="za.co.foursure.weatherapp.domain.model.ListItem" />
+    </fragment>
+</navigation>

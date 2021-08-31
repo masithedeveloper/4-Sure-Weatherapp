@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957621941269",
+    "project_id": "four-sure-weather-app",
+    "storage_bucket": "four-sure-weather-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957621941269:android:77e9589b520ba5dcfb8a1c",
+        "android_client_info": {
+          "package_name": "za.co.foursure.weatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957621941269-v2b6js92r4daih628pp92gsmae41u86g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrwFk9nW7xt5a3_H1dLQwUjYA59r_OLkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957621941269-v2b6js92r4daih628pp92gsmae41u86g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
